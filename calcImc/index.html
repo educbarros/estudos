@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <title>][ Calculadora IMC</title>
+    </head>
+    <body class="container row m-4">
+        <div class="col"></div>
+        <div class="card col text-center" id="calcImc" style="width:18rem;">
+        <h3 class="text-primary">][ Calculadora de IMC</h3>
+        <div class="card-body">
+            <div>
+                <h6 class="card-subtitle m-2 text-primary">Peso em Kg</h6>
+                <input id="peso" class="text-center" type="text" placeholder="ex: 75">
+            </div>
+            <div>
+                <h6 class="card-subtitle m-2 text-primary">Altura em metros</h6>
+                <input id="altura" class="text-center" type="text" placeholder="ex: 1.85">
+            </div>
+        </div>
+        <button class='btn btn-outline-dark' type="button" onclick="calcular()">Calcular</button>
+        <button class='btn btn-outline-dark' type="button" onclick="limpar()">Limpar</button>
+        <h5 class="card-subtitle m-2 text-danger" id="msg-erro"></h5>
+        <div id="img"></div>       
+        </div> 
+        <div class="col"></div>
+        <footer class="mt-5 py-5 text-center">
+            <div class="container mt-5 py-5">
+                2021 Copyright - Edu C. Barros
+            </div>
+        </footer>
+    </body>
+    <script type="text/javascript" src="js.js"></script>
+    
+</html>

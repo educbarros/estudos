@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/styleTheme.css" />
+    <title>|| Calculadora com Javascript</title>
+    <style type="text/css">
+      .msg-erro {
+        color: red;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  
+  <body class="container">
+    <h1 class="text-center">|| Calculador com Javascript</h1>
+    <form class="form" id="calc">
+      <div class="form-group">
+        <h3><span id="msg_erro" class="msg-erro"></span></h3>
+      </div>
+      <div class="form-group">
+        <label for="data">Primeiro Número</label>
+        <input type="text" id="numero1" class="form-control" />
+      </div>
+      <div class="form-group">
+        <label for="data">Segundo Número</label>
+        <input type="text" id="numero2" class="form-control" />
+      </div>
+      <button class="btn btn-primary" type="button" onclick="soma()">
+        Soma
+      </button>
+      <button class="btn btn-primary" type="button" onclick="subtracao()">
+        Subtração
+      </button>
+      <button class="btn btn-primary" type="button" onclick="multiplicacao()">
+        Multuplicação
+      </button>
+      <button class="btn btn-primary" type="button" onclick="divisao()">
+        Divisão
+      </button>
+    </form>
+
+    <footer">
+       <div>
+            © 2021 Copyright - Edu C. Barros
+       </div>
+    </footer>
+  
+  </body>
+
+  <script type="text/javascript" src="calculadora.js"></script>
+
+</html>
