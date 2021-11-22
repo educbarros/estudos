@@ -1,0 +1,39 @@
+/* --inicio o que é-- */
+#componentes{
+    padding: 30px 16px 0px;
+    background: linear-gradient(#c8c8c8, #fff);
+    background-image: url(../img/img_componentes.jpg);
+    background-size: cover;
+    background-position: right;
+}
+/* --fim o que é-- */
+
+/* --inicio aplicações-- */
+#conexoes{
+    padding: 30px 16px 0px;
+    background: linear-gradient(#fff,#c8c8c8);
+    background-image: url(../img/img_conexoes.jpg);
+    background-size: cover;
+    background-position: right;
+}
+/* --fim aplicações-- */
+
+/* --inicio benefícios-- */
+#cloud{
+    padding: 30px 16px 0px;
+    background: linear-gradient(#c8c8c8,#fff);
+    background-image: url(../img/img_cloud.jpg);
+    background-size: cover;
+    background-position: right;    
+}
+/* --fim benefícios-- */
+
+/* --inicio problemas-- */
+#lei{
+    padding: 30px 16px 0px;
+    background: linear-gradient(#fff,#c8c8c8);
+    background-image: url(../img/img_lei.jpg);
+    background-size: cover;
+    background-position: right;    
+}
+/* --fim problemas-- */

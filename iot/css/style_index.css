@@ -1,0 +1,41 @@
+/* --inicio o que é-- */
+#oqe{
+    padding: 30px 16px 0px;
+    background: linear-gradient(#c8c8c8, #fff);
+    background-image: url(../img/img_oqe.jpg);
+    background-size: cover;
+    background-position: right;
+}
+/* --fim o que é-- */
+
+/* --inicio aplicações-- */
+#aplicacoes{
+    padding: 30px 16px 0px;
+    background: linear-gradient(#fff,#c8c8c8);
+    background-image: url(../img/img_aplicacao.jpg);
+    background-size: auto;
+    background-position: right;
+}
+/* --fim aplicações-- */
+
+/* --inicio benefícios-- */
+#beneficios{
+    padding: 30px 16px 0px;
+    background: linear-gradient(#c8c8c8,#fff);
+    background-image: url(../img/img_beneficios.jpg);
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+/* --fim benefícios-- */
+
+/* --inicio problemas-- */
+#problemas{
+    padding: 30px 16px 0px;
+    background: linear-gradient(#fff,#c8c8c8);
+    background-image: url(../img/img_problema.jpg);
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+/* --fim problemas-- */

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+			integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+			crossorigin="anonymous"
+		/>
+		<title>Cadastro de Produtos</title>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="card mt-5 text-center">
+				<div class="card-body mt-1 text-center">
+					<h2 class="card-title">Cadastro de Produtos</h2>
+					<div class="row">
+						<h4>Descrição do Produto</h4>
+						<input id="inputDescProduto" class="form-control" required type="text" placeholder="Nome do Produto"/>
+					</div>
+					<div class="row">
+						<h4>Quantidade</h4>
+						<input id="inputQuantProduto" class="form-control" required type="number" placeholder="Insira a Quantidade"/>
+					</div>
+					<div class="row">
+						<h4>Valor Unitário</h4>
+						<input id="inputPrecoProduto" class="form-control" required type="number" placeholder="Insira a Quantidade"/>
+					</div>
+					<br />
+					<div class="row">
+						<div class="btn-group" role="group" aria-label="Basic example">
+							<button type="button" name="" id="btnAdd" onclick="add()" class="btn btn-success" btn-lg btn-block>Adicionar</button>&nbsp;
+							<button type="button" name="" id="btnRemove" onclick="remove()" class="btn btn-warning" btn-lg btn-block>Remover</button>&nbsp;
+							<button type="button" name="" id="btnLimpar" onclick="limpar()" class="btn btn-danger" btn-lg btn-block>Limpar</button>&nbsp;
+                            <button type="button" name="" id="btnLista" onclick="list()" class="btn btn-info" btn-lg btn-block>Listar</button>
+                        </div>
+					</div>
+					<br>
+					<div id="lista"></div>
+					<h3 id="total"></h3>
+				</div>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="index.js"></script>
+	</body>
+</html>
